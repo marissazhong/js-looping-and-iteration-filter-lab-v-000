@@ -9,4 +9,4 @@ function fuzzyMatch(array, element) {
 }
 
 drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
-fuzzyMatch(drivers, 'Sa');
+console.log(fuzzyMatch(drivers, 'Sa'));
