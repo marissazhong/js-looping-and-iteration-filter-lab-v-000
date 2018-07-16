@@ -7,6 +7,3 @@ function findMatching(array, element) {
 function fuzzyMatch(array, element) {
   return array.filter(function (item) {return item.slice(0,element.length) === element})
 }
-
-drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
-console.log(fuzzyMatch(drivers, 'Sa'));
