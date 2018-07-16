@@ -5,8 +5,7 @@ function findMatching(array, element) {
 }
 
 function fuzzyMatch(array, element) {
-  console.log(array[0].slice(0,element.length));
-  return array.filter(function (item) {return item[0,element.length-1] === element})
+  return array.filter(function (item) {return item.slice(0,element.length) === element})
 }
 
 drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
