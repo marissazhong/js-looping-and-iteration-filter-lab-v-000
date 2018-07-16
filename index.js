@@ -5,7 +5,7 @@ function findMatching(array, element) {
 }
 
 function fuzzyMatch(array, element) {
-  console.log(array[0][0,element.length-1]);
+  console.log(array[0].slice(0,element.length));
   return array.filter(function (item) {return item[0,element.length-1] === element})
 }
 
